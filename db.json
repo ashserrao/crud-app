@@ -1,0 +1,157 @@
+{
+  "languages": [
+    {
+      "id": 1,
+      "name": "Java"
+    },
+    {
+      "id": 2,
+      "name": "c#"
+    },
+    {
+      "id": 3,
+      "name": "Python"
+    }
+  ],
+  "student": {
+    "id": 123,
+    "name": "john",
+    "phone": "123456",
+    "age": "21"
+  },
+  "orderbook": {
+    "BuyOrders": [
+      {
+        "OrderType": "LimitBid",
+        "Price": 497.02,
+        "Volume": 0.01
+      },
+      {
+        "OrderType": "LimitBid",
+        "Price": 490,
+        "Volume": 1
+      }
+    ],
+    "CreatedTimestampUtc ": "2014-08-05T06:42:11.3032208Z",
+    "SellOrders": [
+      {
+        "OrderType": "LimitOffer",
+        "Price": 500,
+        "Volume": 1
+      },
+      {
+        "OrderType": "LimitOffer",
+        "Price": 505,
+        "Volume": 1
+      }
+    ]
+  },
+  "rates": [
+    {
+      "CurrencyCodeA": "Aud",
+      "CurrencyCodeB": "Usd",
+      "Rate": 0.8683
+    },
+    {
+      "CurrencyCodeA": "Usd",
+      "CurrencyCodeB": "Aud",
+      "Rate": 1.1517
+    }
+  ],
+  "latestprices": {
+    "status": "ok",
+    "prices": {
+      "btc": {
+        "bid": "2352",
+        "ask": "3422",
+        "last": "5232"
+      },
+      "ltc": {
+        "bid": "0.342",
+        "ask": "0.343",
+        "last": "0.643"
+      },
+      "doge": {
+        "bid": "23.5",
+        "ask": "23.543",
+        "last": "234"
+      }
+    }
+  },
+  "employee": [
+    {
+      "firstname": "Anush",
+      "lastname": "Serrao",
+      "email": "anushs@ex.ai",
+      "dob": "2024-01-01T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "ERV2",
+      "experience": 3,
+      "package": 6,
+      "id": "b70f"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "product_name": "Smartphone",
+      "Date": "15-02-2024",
+      "Category": "Electronics"
+    },
+    {
+      "id": 2,
+      "product_name": "Running Shoes",
+      "Date": "05-09-2023",
+      "Category": "Footwear"
+    },
+    {
+      "id": 3,
+      "product_name": "Coffee Maker",
+      "Date": "18-11-2023",
+      "Category": "Appliances"
+    },
+    {
+      "id": 4,
+      "product_name": "Backpack",
+      "Date": "02-04-2024",
+      "Category": "Fashion"
+    },
+    {
+      "id": 5,
+      "product_name": "Gaming Console",
+      "Date": "21-08-2023",
+      "Category": "Electronics"
+    },
+    {
+      "id": 6,
+      "product_name": "Desk Chair",
+      "Date": "09-06-2024",
+      "Category": "Furniture"
+    },
+    {
+      "id": 7,
+      "product_name": "Digital Camera",
+      "Date": "14-03-2023",
+      "Category": "Electronics"
+    },
+    {
+      "id": 8,
+      "product_name": "Winter Jacket",
+      "Date": "30-12-2023",
+      "Category": "Apparel"
+    },
+    {
+      "id": 9,
+      "product_name": "Fitness Tracker",
+      "Date": "07-05-2024",
+      "Category": "Electronics"
+    },
+    {
+      "id": 10,
+      "product_name": "Portable Speaker",
+      "Date": "11-10-2023",
+      "Category": "Electronics"
+    }
+  ]
+}
