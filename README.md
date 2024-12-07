@@ -1,74 +1,88 @@
-# Angular 15 example project: CRUD with Rest API
+# Employee Data System (CRUD Application)
 
-Build an Angular 15 CRUD example App to consume Rest APIs, display, modify & search data.
+This repository contains a basic CRUD application built using the Angular framework. The application manages an Employee Database and demonstrates core Angular concepts, such as form handling, validations, and interaction with a mock backend using a JSON server.
 
-Tutorial Application in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- There is a Search bar for finding Tutorials by title.
+## Features
+- **Create**: Add a new employee with details such as name, date of birth, experience, package, gender, and education.
+- **Read**: View the list of all employees in a structured table with the search filter.
+- **Update**: Edit the details of an existing employee.
+- **Delete**: Remove an employee from the database.
 
-![angular-15-crud-example](angular-15-crud-example.png)
+## Prerequisites
+- [Node.js](https://nodejs.org/) installed on your system.
+- Angular CLI installed globally. Run the following command if not already installed:
+  ```bash
+  npm install -g @angular/cli
+  ```
 
-Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.
+## Getting Started
 
-For instruction, please visit:
-> [Angular 15 example: CRUD with Rest API](https://www.bezkoder.com/angular-15-crud-example/)
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
 
-More Practice:
-> [Angular 15 Pagination example | ngx-pagination](https://www.bezkoder.com/angular-15-pagination-ngx/)
+### 2. Install Dependencies
+Install the necessary npm packages:
+```bash
+npm install
+```
 
-> [Angular 15 JWT Authentication & Authorization with Web API](https://www.bezkoder.com/angular-15-jwt-auth/)
+### 3. Set Up the JSON Server
+This project uses JSON Server as a mock backend. To set it up:
+1. Navigate to the project folder.
+2. Run the following command to install JSON Server globally if not already installed:
+   ```bash
+   npm install -g json-server
+   ```
+3. Start the JSON server:
+   ```bash
+   json-server --watch db.json
+   ```
+   Ensure the `db.json` file is present in the root directory of the project. This file acts as the mock database for the application.
 
-> [Angular 15 File upload example with Progress bar](https://www.bezkoder.com/angular-15-file-upload/)
+### 4. Start the Angular Development Server
+Run the following command to serve the Angular application:
+```bash
+ng serve
+```
+The application will be accessible at `http://localhost:4200/`.
 
-> [Angular 15 Multiple Files upload example with Progress Bar](https://www.bezkoder.com/angular-15-multiple-file-upload/)
+## Usage
+1. Open the application in your browser.
+2. Add new employees using the form provided.
+3. View the list of employees in the table with the search filter.
+4. Edit or delete employee details as required.
 
-> [Angular 15 Form Validation example](https://www.bezkoder.com/angular-15-form-validation/)
+## Project Structure
+- **src/app**: Contains the Angular components, services, and modules.
+- **db.json**: The JSON file used as a mock backend.
 
-Fullstack with Node:
+## Dependencies
+- Angular
+- JSON Server
+- Bootstrap (for styling)
 
-> [Angular 15 + Node Express + MySQL example](https://www.bezkoder.com/angular-15-node-js-express-mysql/)
+## Commands Summary
+- **Install dependencies**:
+  ```bash
+  npm install
+  ```
+- **Run JSON server**:
+  ```bash
+  json-server --watch db.json
+  ```
+- **Serve Angular application**:
+  ```bash
+  ng serve
+  ```
 
-> [Angular 15 + Node Express + PostgreSQL example](https://www.bezkoder.com/angular-15-node-js-express-postgresql/)
+## Screenshots
+![image](https://github.com/user-attachments/assets/bd63aaa1-b36f-4fb5-8cb4-74fad26a1a3e)
+![image](https://github.com/user-attachments/assets/5e26754e-b500-4097-bf80-102344005f5d)
+![image](https://github.com/user-attachments/assets/9fbf70b8-14f3-46c7-95e7-55b7fad93d56)
+![image](https://github.com/user-attachments/assets/9d59d1e9-06cb-4e47-80ff-52a1e5afddd8)
 
-> [Angular 15 + Node Express + MongoDB example](https://www.bezkoder.com/angular-15-node-js-express-mongodb/)
-
-> [Angular 15 + Node Express: File upload example](https://www.bezkoder.com/angular-15-node-express-file-upload/)
-
-Fullstack with Spring Boot:
-
-> [Angular 15 + Spring Boot example](https://www.bezkoder.com/spring-boot-angular-15-crud/)
-
-> [Angular 15 + Spring Boot + MySQL example](https://www.bezkoder.com/spring-boot-angular-15-mysql/)
-
-> [Angular 15 + Spring Boot + PostgreSQL example](https://www.bezkoder.com/spring-boot-angular-15-postgresql/)
-
-> [Angular 15 + Spring Boot + MongoDB example](https://www.bezkoder.com/spring-boot-angular-15-mongodb/)
-
-> [Angular 15 + Spring Boot: File upload example](https://www.bezkoder.com/angular-15-spring-boot-file-upload/)
-
-Fullstack with Django:
-> [Angular + Django example](https://www.bezkoder.com/django-angular-13-crud-rest-framework/)
-
-> [Angular + Django + MySQL](https://www.bezkoder.com/django-angular-mysql/)
-
-> [Angular + Django + PostgreSQL](https://www.bezkoder.com/django-angular-postgresql/)
-
-> [Angular + Django + MongoDB](https://www.bezkoder.com/django-angular-mongodb/)
-
-Security:
-> [Angular 15 + Spring Boot: JWT Authentication and Authorization example](https://www.bezkoder.com/angular-15-spring-boot-jwt-auth/)
-
-> [Angular 15 + Node.js Express: JWT Authentication and Authorization example](https://www.bezkoder.com/node-js-angular-15-jwt-auth/)
-
-Serverless with Firebase:
-> [Angular 15 Firebase CRUD with Realtime DataBase](https://www.bezkoder.com/angular-15-firebase-crud/)
-
-> [Angular 15 Firestore CRUD example](https://www.bezkoder.com/angular-15-firestore-crud/)
-
-> [Angular 15 Firebase Storage: File Upload/Display/Delete example](https://www.bezkoder.com/angular-15-firebase-storage/)
-
-Integration (run back-end & front-end on same server/port)
-> [How to integrate Angular with Node Restful Services](https://bezkoder.com/integrate-angular-12-node-js/)
-
-> [How to Integrate Angular with Spring Boot Rest API](https://bezkoder.com/integrate-angular-12-spring-boot/)
+## Author
+Anush Serrao
